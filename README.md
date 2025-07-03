@@ -1,6 +1,6 @@
 # AI ChatBot 
 
-Build with Tauri + React + Vite + Llamaindex
+A desktop App build with Tauri + React + Vite + Llamaindex
 
 This template provides a minimal setup to get React working in a Vite + Tauri app with a Rust backend. It also demonstrates how to integrate Llamaindex for AI-powered chat functionality.
 
