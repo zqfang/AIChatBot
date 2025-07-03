@@ -4,6 +4,9 @@ Build with Tauri + React + Vite + Llamaindex
 
 This template provides a minimal setup to get React working in Vite.
 
+
+![chatbot](./output.gif)
+
 ## Get your OPEN_API_KEY
 
 This app requires the `OPENAI_API_KEY` environment variable to be set.
