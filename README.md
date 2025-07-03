@@ -2,7 +2,7 @@
 
 Build with Tauri + React + Vite + Llamaindex
 
-This template provides a minimal setup to get React working in Vite.
+This template provides a minimal setup to get React working in Vite+Tauri.
 
 
 ![chatbot](./output.gif)
