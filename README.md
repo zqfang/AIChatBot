@@ -2,8 +2,25 @@
 
 Build with Tauri + React + Vite + Llamaindex
 
-This template provides a minimal setup to get React working in Vite+Tauri.
+This template provides a minimal setup to get React working in a Vite + Tauri app with a Rust backend. It also demonstrates how to integrate Llamaindex for AI-powered chat functionality.
 
+✅ Why not just run LlamaIndex in the browser?
+
+🚫 Bad idea for production !
+
+* Your OpenAI keys would be exposed.
+* Embedding big data can be huge in the client (browser).
+
+
+✅ Why Rust backend in production ?
+
+* Handling local files or private data
+* Storing vector embeddings
+* Using large models without blowing up the browser’s memory
+* Leverage Rust's zero-cost abstractions and memory safety for high-performance LLM operations.
+
+
+## Demo
 
 ![chatbot](./output.gif)
 
