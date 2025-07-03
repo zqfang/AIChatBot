@@ -1,7 +1,29 @@
-# Tauri + React + Typescript
+# AI ChatBot 
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+Build with Tauri + React + Vite + Llamaindex
 
-## Recommended IDE Setup
+This template provides a minimal setup to get React working in Vite.
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+## Get your OPEN_API_KEY
+
+This app requires the `OPENAI_API_KEY` environment variable to be set.
+
+```bash
+export OPENAI_API_KEY='sk-'
+```
+
+
+## Dev & Build
+
+Install `nodejs`, `rust` first.
+
+```bash
+cd AIChatBot
+# install dependencies
+pnpm install 
+# dev
+pnpm tauri dev
+
+# Build
+pnpm tauri build
+```

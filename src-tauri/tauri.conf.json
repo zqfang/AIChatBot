@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "DeepSearchAgent",
+  "productName": "ChatBotTauri",
   "version": "0.1.0",
   "identifier": "com.deepsearchagent.tauri",
   "build": {
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "DeepSearchAgent",
+        "title": "ChatBotAgent",
         "width": 1000,
         "height": 800
       }

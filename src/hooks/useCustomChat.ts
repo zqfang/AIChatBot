@@ -3,20 +3,6 @@ import { generateId, Message } from 'ai';
 import { ChatHandler, JSONValue, ChatEvent} from '@llamaindex/chat-ui';
 import {invoke} from '@tauri-apps/api/core';
 
-
-import {
-  // ChatMemoryBuffer,
-  // LlamaCloudIndex,
-  // MessageContent,
-  // Metadata,
-  // MetadataMode,
-  // NodeWithScore,
-  // PromptTemplate,
-  // VectorStoreIndex,
-  // extractText,
-  Settings
-} from "llamaindex";
-
 const TOKEN_DELAY = 20; // 20ms delay between tokens
 
 const assistant =  async ({ message }: { message: Message }) => {
